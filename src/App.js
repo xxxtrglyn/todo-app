@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import SideBar from "./components/sidebar/SideBar";
+import Wrapper from "./components/wrapper/Wrapper";
 
 function App() {
   return (
     <React.Fragment>
-      <SideBar />
+      <Wrapper />
     </React.Fragment>
   );
 }
