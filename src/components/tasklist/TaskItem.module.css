@@ -1,7 +1,7 @@
 .taskitem {
   width: 100%;
-  height: 10%;
-  background-color: #f2f2f2;
+  height: 16%;
+  background-color: #F1F2F7;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .taskitem:hover {
-    background-color: white;
+    background-color: #FDFDFD;
     cursor: pointer;
     border-left: 3px solid red;
 }

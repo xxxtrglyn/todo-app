@@ -1,0 +1,57 @@
+.taskcontent {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.titlerow {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  font-size: 1.6rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.taskstatus {
+  margin-left: 9rem;
+}
+
+.completed {
+  font-size: 1.4rem;
+  color: rgb(23, 115, 252);
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.datecompleted {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.4rem;
+}
+
+.iconcompleted {
+    font-size: 2rem;
+    color: rgb(23, 115, 252);
+    display: inline-block;
+    transform: translateY(4px);
+}
